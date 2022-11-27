@@ -71,4 +71,24 @@ font-style: oblique;
   text-align: center;
 }
 
+@media(max-width:800px){
+  #logo{
+    display: block;
+    text-align: center;
+  }
+  #top_menu{
+    display: none;
+  }
+  #menu{
+    display:flex;
+    border-right: none;
+    position:absolute;
+    top:200px;
+    text-align:center;
+  }
+
+  #main_menu{
+    display: none;
+  }
+}
 </style>
