@@ -16,9 +16,6 @@ header{
   position:absolute;
   width:100%;
   height: 200px;
-  top:0px;
-  left:0px;
-  right:0px;
   color: black;
   background-color: black;
 }
@@ -48,6 +45,14 @@ font-style: oblique;
 }
 #menu a{color: black;}
 
+#benner{
+  flex-wrap: wrap;
+  display: flex;
+  position:absolute;
+  justify-content:flex-start;
+  top:200px;
+  left:162px;
+}
 #main_menu{
   flex-wrap: wrap;
   display: flex;
