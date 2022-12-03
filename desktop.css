@@ -46,10 +46,9 @@ font-style: oblique;
 #menu a{color: black;}
 
 #benner{
-  flex-wrap: wrap;
   display: flex;
-  position:absolute;
-  justify-content:flex-start;
+  position:fixed;
+  width:100%;
   top:200px;
   left:162px;
 }
