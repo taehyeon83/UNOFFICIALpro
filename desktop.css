@@ -71,7 +71,7 @@ font-style: oblique;
   text-align: center;
 }
 
-@media(max-width:800px){
+@media(max-width:950px){
   #logo{
     display: block;
     text-align: center;
@@ -83,12 +83,16 @@ font-style: oblique;
     display:flex;
     border-right: none;
     position:absolute;
-    top:200px;
-    text-align:center;
+    text-align:right;
   }
-
   #main_menu{
+    top:70px;
+    margin-left: 150px;
+  }
+    ul{
+      padding-bottom: 50px;
+    }
+  #benner{
     display: none;
   }
-}
 </style>
